@@ -11,7 +11,7 @@ group :development do
   gem 'rspec-rails'
 end
 
-group :tests do
+group :test do
   gem 'rspec'
   gem 'spork'
   gem "autotest-rails-pure"
