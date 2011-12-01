@@ -11,6 +11,17 @@ group :development do
   gem 'rspec-rails'
 end
 
+group :tests do
+  gem 'rspec'
+  gem 'spork'
+  gem "autotest-rails-pure"
+  gem 'autotest-standalone'
+  gem "autotest-growl"
+  gem "autotest-fsevent"
+  gem 'webrat'
+  gem 'factory_girl_rails'
+  gem "ZenTest"
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
