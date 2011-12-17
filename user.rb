@@ -7,6 +7,6 @@ class User
   end
   
   def formatted_email
-    "#{@name} <#{@email}>"
+    "#{@name} <#{@email}>"   
   end
 end
