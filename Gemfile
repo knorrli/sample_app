@@ -15,6 +15,7 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'spork'
+  gem 'annotate', :require => 'rake'
   gem "autotest-rails-pure"
   gem 'autotest-standalone'
   gem "autotest-growl"
